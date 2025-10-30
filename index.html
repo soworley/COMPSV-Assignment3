@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Social Feed — Mini App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Mini Social Feed</h1>
+    <p class="subtitle">A small demo built with GitHub Copilot during a 2-hour experiment</p>
+  </header>
+
+  <main class="container">
+    <section id="new-post">
+      <h2>Create a Post</h2>
+      <input id="post-author" placeholder="Your name" />
+      <textarea id="post-content" placeholder="What's on your mind?"></textarea>
+      <button id="add-post">Post</button>
+    </section>
+
+    <section id="feed">
+      <h2>Feed</h2>
+      <div id="posts"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>Made for class — demonstrates Copilot collaboration</small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
